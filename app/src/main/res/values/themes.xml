@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.ExamenFinal" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.ExamenFinal" parent="Base.Theme.ExamenFinal">
+        <item name="colorPrimary">@color/ipn_guinda</item>
+        <item name="colorPrimaryVariant">@color/ipn_guinda_dark</item>
+        <item name="android:statusBarColor">@color/ipn_guinda_dark</item>
+    </style>
+
+    <style name="Theme.ExamenFinal.Azul" parent="Base.Theme.ExamenFinal">
+        <item name="colorPrimary">@color/escom_azul</item>
+        <item name="colorPrimaryVariant">@color/escom_azul_dark</item>
+        <item name="android:statusBarColor">@color/escom_azul_dark</item>
+    </style>
+</resources>
